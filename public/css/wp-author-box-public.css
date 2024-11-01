@@ -1,0 +1,80 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.pt-author-box {
+	width: 100%;
+	clear: both;
+	font-size: 14px;
+}
+.pt-author-tabs {
+	margin: 2em 0;
+	padding-top: 2em;
+	clear: both;
+}
+ul.pt-tab-list {
+	overflow: hidden;
+	padding: 0;
+	margin: 0 0 4px;
+}
+ul.pt-tab-list li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0 2px 0 0;
+	padding: 0;
+	background: none;
+}
+ul.pt-tab-list li a {
+	background-color: #E9E9E9;
+	/*border: 1px solid #E9E9E9;*/
+	color: #333;
+	padding: 8px;
+	display: block;
+	line-height: 1;
+	text-decoration: none;
+	outline: 0;
+	box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+}
+ul.pt-tab-list li a span {
+	padding-left: 4px;
+}
+ul.pt-tab-list li a:hover {
+	color: #FFF;
+	background: #41A62A;
+}
+ul.pt-tab-list li.ui-tabs-active a {
+	background-color: #41A62A;
+	color: #FFF;
+}
+.pt-author-tab {
+	background-color: #E9E9E9;
+	/*border: 2px solid #E9E9E9;*/
+	color: #555;
+	min-height: 64px;
+	padding: 8px;
+	width: auto;
+	height: auto;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+}
+.pt_bio_avatar {
+	display: block;
+	float: left;
+	width: 60px;
+	height: 60px;
+}
+.pt_bio_text {
+	margin-left: 72px;
+	line-height: 1.5;
+	overflow: hidden;
+}
+.pt_bio_text h4 {
+	margin-top: 0;
+}
+.pt_bio_text a {
+	text-decoration: none;
+}
